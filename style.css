@@ -1,0 +1,153 @@
+body,
+html {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+
+.foto {
+  align-items: left;
+  display: block;
+  margin: 5px;
+  border: 2px solid #333;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+body {
+  background-color: #008b8b;
+}
+
+iframe {
+  width: 300px;
+  height: 200px;
+  border: 10;
+}
+
+header {
+  background-color: #333; /* Color de fondo del encabezado */
+  color: #fff; /* Color de texto del encabezado */
+  padding: 10px 0; /* Espaciado interno del encabezado */
+  text-align: center; /* Alineación del texto del encabezado */
+}
+nav {
+  display: inline-block; /* Para que el menú se muestre en línea */
+}
+
+nav ul {
+  list-style-type: none; /* Quita los estilos de lista */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline; /* Para que los elementos de lista se muestren en línea */
+  margin-right: 20px; /* Espaciado entre elementos de lista */
+}
+
+nav ul li a {
+  color: #fff; /* Color de enlace del menú */
+  text-decoration: none; /* Quita la decoración de enlace */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el cursor sobre él */
+}
+
+.contPerfil {
+  display: flex; /* Utiliza el modelo de caja flexible para los elementos secundarios */
+  align-items: center; /* Alinea verticalmente los elementos secundarios */
+  width: auto;
+  height: 200px;
+}
+
+.presentacion {
+  flex: 1; /* El texto del perfil ocupa el espacio restante */
+  height: 200px;
+  width: auto;
+  margin: 5px;
+  padding: 10px;
+  color: #cccccc;
+}
+
+h2 {
+  font-size: 16px; /* Tamaño de fuente del nombre */
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.personales {
+  text-align: left;
+  height: 200px;
+  width: auto;
+  margin: 5px;
+  color: #cccccc;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: #364552;
+  padding: 3rem;
+  color: white;
+  align-content: end;
+  align-items: flex-end;
+  height: 100px;
+  width: auto;
+}
+
+footer section {
+  float: right;
+}
+
+.logo {
+  margin: 0.5rem;
+}
+
+.logo:hover {
+  width: 60px;
+  height: 60px;
+}
+
+h4 {
+  text-align: left;
+}
+
+.tec1{
+  width: 400px;
+  height: 200px;
+    display: block; /* Opcional: cambia a "inline-block" si es necesario */
+    margin-right: auto; /* Alinea a la izquierda */
+}
+
+.tec2{
+  width: 400px;
+  height: 200px;
+    display: block; /* Opcional: cambia a "inline-block" si es necesario */
+    margin-left: auto; /* Alinea a la izquierda */
+}
+.tec3{
+  width: 400px;
+  height: 200px;
+    display: block; /* Opcional: cambia a "inline-block" si es necesario */
+    margin-right: auto; /* Alinea a la izquierda */
+}
+
+.tec4{
+  width: 400px;
+  height: 200px;
+    display: block; /* Opcional: cambia a "inline-block" si es necesario */
+    margin-left: auto; /* Alinea a la izquierda */
+}
+
+article{
+  text-align: center;
+}
